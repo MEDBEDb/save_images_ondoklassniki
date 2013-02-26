@@ -12,3 +12,9 @@ Run 'ruby save_images_ondoklassniki.rb', enter you credentials on prompt.
 All images are saved in same dirrectory with the script.
 
 After the script finishes running open your folder full with all your graphic files. Now you're good to go :)
+
+
+
+Video demonstration of script working can be found here:
+=========================
+https://www.youtube.com/watch?v=JK2VFZkMXRQ
