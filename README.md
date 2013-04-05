@@ -15,9 +15,11 @@ After the script finishes running open your folder full with all your graphic fi
 
 
 
+
 Video demonstration of script working can be found here:
 =========================
 https://www.youtube.com/watch?v=JK2VFZkMXRQ
+
 
 
 Copyright (c) 2013 MEDBEDb.
