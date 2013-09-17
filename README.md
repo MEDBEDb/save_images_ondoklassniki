@@ -1,16 +1,18 @@
 save_images_ondoklassniki
 =========================
 
-A ruby + watir-webdriver script that will save all images from all your albums at ondoklassniki.ru
+A ruby + watir-webdriver script that will save all images from any given album from ondoklassniki.ru
 
-Instructions: Make sure your ruby version is =< 1.9.3
+Instructions: Make sure your ruby version is =< 2.0
 Install "watir-webdriver", "open-uri" and  "watir-webdriver/wait"
 
+Steps:
+1. Fork or clone the repo.
+2. Replace lines: 9 and 10 with your credentials.
+3. Input the album URL into brackets from line 17
+4. Run 'ruby save_images_ondoklassniki.rb'
 
-Run 'ruby save_images_ondoklassniki.rb', enter you credentials on prompt.
-
-All images are saved in same dirrectory with the script.
-
+All images are saved into newly generated dirrectory which matches the album name.
 After the script finishes running open your folder full with all your graphic files. Now you're good to go :)
 
 
@@ -18,8 +20,8 @@ After the script finishes running open your folder full with all your graphic fi
 
 Video demonstration of script working can be found here:
 =========================
-https://www.youtube.com/watch?v=JK2VFZkMXRQ
-
+https://www.youtube.com/watch?v=JK2VFZkMXRQ OLD SHIT :)
+NEW: TBU
 
 
 Copyright (c) 2013 MEDBEDb.
