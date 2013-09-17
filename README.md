@@ -18,7 +18,7 @@ Steps:
 
 All images are saved into newly generated dirrectory which matches the album name.
 After the script finishes running open your folder full with all your graphic files. Now you're good to go :)
-
+P.S.> Feel free to play with it, and send me a pull request if implemented something new && util xD
 
 
 
