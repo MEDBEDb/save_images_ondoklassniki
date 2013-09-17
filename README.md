@@ -7,9 +7,13 @@ Instructions: Make sure your ruby version is =< 2.0
 Install "watir-webdriver", "open-uri" and  "watir-webdriver/wait"
 
 Steps:
+
 1. Fork or clone the repo.
+
 2. Replace lines: 9 and 10 with your credentials.
+
 3. Input the album URL into brackets from line 17
+
 4. Run 'ruby save_images_ondoklassniki.rb'
 
 All images are saved into newly generated dirrectory which matches the album name.
