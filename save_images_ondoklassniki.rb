@@ -15,9 +15,9 @@ end
 
 puts "\n** Logging in ..."
 login
-puts "...ok, going in Album"
 @albumURL = "URL" #Replace URL with following format: http://www.odnoklassniki.ru/profile/012345678901/album/012345678901
 @b.goto @albumURL
+puts "...ok, going in Album"
 
 @ablum_title = @b.span(:class, 'photo-sc_h2_alb-title').text.gsub("\d","").gsub("\/"," ").gsub("?"," ").gsub('"','').to_s[0..255]
 puts "\n** Making directory ./" + @ablum_title + "\n"
@@ -27,10 +27,7 @@ FileUtils.mkdir_p @ablum_title
 @total_number_of_photos_in_album = @b.span(:class, 'photo-sc_h2_alb-count portlet-i_h2_tx').text.gsub(/\D/, "").to_i 
 
 @first_image_in_album = @b.img(:class, 'photo-sc_i_cnt_a_img va_target')
-#@first_image_in_album.when_present.click
-
 @main_image = @b.img(:class, "plp_photo")
-#@main_image.wait_until_present
 
 for i in 1..@total_number_of_photos_in_album do
 
