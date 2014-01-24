@@ -23,7 +23,7 @@ puts "...ok, going in Album"
 puts "\n** Making directory ./" + @ablum_title + "\n"
 FileUtils.mkdir_p @ablum_title
 
-#Replace non integer symbols if number of photos over than 999, f.e. "12 345"
+#Extracting non integer symbols if number of photos over than 999, f.e. "12 345"
 @total_number_of_photos_in_album = @b.span(:class, 'photo-sc_h2_alb-count portlet-i_h2_tx').text.gsub(/\D/, "").to_i 
 
 @first_image_in_album = @b.img(:class, 'photo-sc_i_cnt_a_img va_target')
