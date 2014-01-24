@@ -10,7 +10,7 @@ def login
  pswd = "TYPE_YOUR_PASSWORD"
  @b.text_field(:id, "field_email").when_present.set(usr)
  @b.text_field(:id, "field_password").set(pswd)
- @@b.send_keys :enter
+ @b.send_keys :enter
 end
 
 puts "\n** Logging in ..."
