@@ -47,7 +47,6 @@ for i in 1..@total_number_of_photos_in_album do
       puts "Saving img " + i.to_s + " and title: " + @photo_description_title
       end
   end
-  
 @b.div(:id, "plp_slide_r").click #clicking next button
 #### if you want at once to delete all photos in Album, then remove (or #comment) line 50 above
 #### and UNcomment four lines[53..56] below :
