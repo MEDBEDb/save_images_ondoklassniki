@@ -3,18 +3,23 @@ save_images_ondoklassniki
 
 A ruby + watir-webdriver script that will save all images from any given album from ondoklassniki.ru
 
-Instructions: Make sure your ruby version is =< 2.0
-Install "watir-webdriver", "open-uri" and  "watir-webdriver/wait"
+Instructions: Make sure you have firefox installed and your ruby version is =< 2.0
+Install "watir-webdriver"
 
 Steps:
 
 1. Fork or clone the repo.
 
-2. Replace lines: 9 and 10 with your credentials.
+2. Add your username to line: 23
+  @usr = "youruser"
 
-3. Input the album URL into brackets from line 17
+   Add your password to line: 24
+  @pswd = "yourpassword"
 
-4. Run 'ruby save_images_ondoklassniki.rb'
+   Add album URL to line: 23
+  @albumURL = "http://odnoklassniki.ru/page/album/12345678901234567" 
+
+3. Run 'ruby save_images_ondoklassniki.rb'
 
 All images are saved into newly generated dirrectory which matches the album name.
 After the script finishes running open your folder full with all your graphic files. Now you're good to go :)
