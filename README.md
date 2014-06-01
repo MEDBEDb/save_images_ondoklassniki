@@ -16,7 +16,7 @@ Steps:
    Add your password to line: 24
   @pswd = "yourpassword"
 
-   Add album URL to line: 23
+   Add album URL to line: 25
   @albumURL = "http://odnoklassniki.ru/page/album/12345678901234567" 
 
 3. Run 'ruby save_images_ondoklassniki.rb'
