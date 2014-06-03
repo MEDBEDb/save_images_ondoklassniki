@@ -33,7 +33,7 @@ Video demonstration of script working can be found here:
 =========================
 https://www.youtube.com/watch?v=dnkgBgUpU60
 
-Old: https://www.youtube.com/watch?v=JK2VFZkMXRQ OLD SHIT :)
+Old: https://www.youtube.com/watch?v=JK2VFZkMXRQ
 
 
 
