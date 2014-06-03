@@ -31,10 +31,10 @@ P.S.> Feel free to play with it, and send me a pull request if implemented somet
 
 Video demonstration of script working can be found here:
 =========================
-https://www.youtube.com/watch?v=JK2VFZkMXRQ OLD SHIT :)
+https://www.youtube.com/watch?v=dnkgBgUpU60
 
+Old: https://www.youtube.com/watch?v=JK2VFZkMXRQ OLD SHIT :)
 
-NEW: TBU
 
 
 Copyright (c) 2013 MEDBEDb.
