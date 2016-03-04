@@ -3,8 +3,10 @@ save_images_ondoklassniki
 
 A ruby + watir-webdriver script that will save all images from any given album from ondoklassniki.ru
 
-Instructions: Make sure you have firefox installed and your ruby version is =< 2.0
-Install "watir-webdriver"
+Instructions: 
+Make sure you have firefox installed and your ruby version is =< 2.0
+Install "watir-webdriver" (gem install watir-webdriver)
+Add latest PhantomJS binary to your path http://phantomjs.org/download.html
 
 Steps:
 
